@@ -1,0 +1,52 @@
+/*1em = 16px*/
+
+h1 
+{
+
+    text-align: center;
+}
+p 
+{
+    text-align: justify;
+}
+body
+{
+    font-size: 20px;
+}
+
+#ID
+{
+    font-size: 0.8em;
+}
+
+.pixelify-sans-regular 
+{
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jacquard-12-regular 
+{
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Top
+{
+    border: 4px solid #ff0202;
+    width: 25%;
+    /* margin: top,right,bottom,left; */
+    margin: auto;
+}
+.Bottom
+{
+    border: 4px solid #020fff;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 15px;
+}
+  

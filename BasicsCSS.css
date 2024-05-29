@@ -1,0 +1,92 @@
+/*Comment*/
+/* Path: BasicsCSS.css */
+
+h1 {
+    color: #0c0d0d;
+    font-size: 3em;
+    text-align: center;
+}
+
+p {
+    color: rgb(86, 90, 99);
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+li {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1.2em;
+}
+
+body {
+    background-color: #d9f3dc;
+}
+div {
+    background-color: #a2e68c;
+    border: 1px solid #000;
+    border-color: rgb(80, 94, 94);
+    border-width: 0.4em;
+    border-style: dotted;
+    margin: 10px;
+    padding: 10px;
+    p {
+        color: #000;
+        font-size: 1.1em;
+        text-align: center;
+    }
+}
+span {
+    color: #fffafa;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.Div_1 /*Class*/
+{
+    background-color: #9b3636;
+    border: 1px solid #000;
+    border-color: rgb(80, 94, 94);
+    border-width: 0.3em;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+}
+.Div_2 
+{
+    background-color: #f7f7f7;
+    border: 1px solid #000;
+    border-color: rgb(80, 94, 94);
+    border-width: 0.3em;
+    border-style:dashed;
+    margin: 10px;
+    padding: 10px;
+}
+
+#ID /*ID*/
+{
+    color: #9f3b3b;
+    font-size: 1.1em;
+    text-align: center;
+    text-decoration: none;
+}
+
+h2 + ul {
+    color: #000;
+    font-size: 1.1em;
+    text-align: justify;
+    border: 4px dotted #eb8686;
+}
+
+li a {
+    color: #7ba2c8;
+    font-size: 1.1em;
+    text-align: justify;
+    text-decoration: none;
+}
+
+li a[href="www.npr.org"] {
+    color: #369978;
+    font-size: 1.1em;
+    text-align: justify;
+    text-decoration: none;
+}

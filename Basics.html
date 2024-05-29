@@ -97,5 +97,33 @@
             <input type="text" id="color" name="color" value="#ff0000"> <!-- Text Input -->
 
         </form>
+
+        <h3>Forms Continue</h3>
+        <h4>Hotel Feedback Form</h4>
+        <form>
+            <p>Location</p>
+            <label for="US">United States</label>
+            <input type="radio" id="US" name="loc" value="US">
+            <br>
+            <label for="Canada">Canada</label>
+            <input type="radio" id="Canada" name="loc" value="Canada">
+            <br>
+            <label for="Mexico">Mexico</label>
+            <input type="radio" id="Mexico" name="loc" value="Mexico">
+
+
+            <p>Rating</p>
+            <select name="stars">
+                <option value="Amazing">5</option>
+                <option value="Good">4</option>
+                <option value="Okay">3</option>
+                <option value="Bad">2</option>
+                <option value="Terrible">1</option>
+            </select>
+
+            <p>Comments</p>
+            <textarea name="comments" rows="4" cols="50" placeholder="Enter Comments Here"></textarea>
+            <input type="submit" value="Submit">
+        </form>
     </body>
 </html>
