@@ -161,6 +161,33 @@ function addEventListeners()
 
 }
 
+function jqueryExample() 
+{
+    var x = $("h1") //selects the h1 element
+    x.css("color", "red") //changes the color
+
+    x.text("Changed Text") //changes the text
+
+    x.html("<em>Changed Text</em>") //changes the text to italic
+    var newCSS = 
+    {
+        'color': 'blue',
+        'font-size': '20px',
+        'background-color': 'green',
+        'font-family': 'Arial',
+        'font-weight': 'bold',
+        'border': '1px solid black'
+    }
+
+    var listItems = $("li")
+    listItems.css("color", "red") //changes all the list items to red
+
+    listItems.eq(0).css("color", "blue") //changes the first list item to blue
+    listItems.eq(-1).css("color", "green") //changes the last list item to green
+
+    x.css(newCSS)
+}
+
 var returnDeposit = bankAccount() //runs the function
 
 var person = personObject() //runs the function
@@ -170,3 +197,4 @@ clearConsole() //clears the console
 
 changeText() //changes the text
 addEventListeners() //adds event listeners
+jqueryExample() //runs the jquery example
